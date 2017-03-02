@@ -1,0 +1,78 @@
+/*{border: 1px solid Red;}*/
+
+/*----Navigation Bar----*/
+.navigationbar{
+  background-color: rgba(0,0,0,0.80);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul.nav li{
+  display: inline-block;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin: 2px 0px;
+  min-width: 18%;
+  text-align: center;
+  background-color: black;
+}
+
+ul.nav li:hover {
+  color: red;
+  border: 3px double red;
+  margin: 0px 10px;
+}
+
+ul.nav li[class="navactive"]{
+  border: 1px solid red;
+}
+
+ul.nav li a{
+  display: block;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+ul.nav li a:hover{
+  color: red;
+}
+
+ul.nav{
+  margin: 5px auto;
+  text-align: center;
+  list-style-type: none;
+}
+
+/*-----main style----*/
+html{
+  background-color: #000000;
+  color: White;
+  font-family: Arial, san-serif;
+}
+
+/*---------index.html header---------*/
+.header{
+  border: 1px double red;
+  background: url("wallpaper.jpg") no-repeat center;
+  background-attachment: fixed;
+  min-height: 480px;
+  min-width: 320px;
+  max-width: 3840px;
+  max-height: 2160px; 
+}
+
+h1{
+  font-size: 70px;
+  font-weight: 700;
+  margin:0;
+  padding-top: 200px;
+  text-align: center;  
+  background-color: rgba(0,0,0,0.15);
+}
